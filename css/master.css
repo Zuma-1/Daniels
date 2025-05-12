@@ -608,6 +608,7 @@ font-weight: 400;
 line-height: 24px;
 font-family: var(--font-poppins);
 width: 100% !important;
+margin: 0 !important;
 text-align: center;
 }
 
@@ -671,8 +672,16 @@ margin: auto;
 position: static !important;
 }
 
+.carousel-caption{
+margin: 0 !important;
+
+}
+
 .carousel-indicators {
-margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px 0 0 0 !important;
 }
 
 
